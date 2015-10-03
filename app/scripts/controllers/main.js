@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name yeomanTutorialApp.controller:MainCtrl
+ * @name todolistApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the yeomanTutorialApp
+ * Controller of the todolistApp
  */
-angular.module('yeomanTutorialApp')
+angular.module('todolistApp')
   .controller('MainCtrl', function ($scope, localStorageService) {
 
     var todosInStore = localStorageService.get('todos');

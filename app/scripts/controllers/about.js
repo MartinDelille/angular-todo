@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name yeomanTutorialApp.controller:AboutCtrl
+ * @name todolistApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the yeomanTutorialApp
+ * Controller of the todolistApp
  */
-angular.module('yeomanTutorialApp')
+angular.module('todolistApp')
   .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
